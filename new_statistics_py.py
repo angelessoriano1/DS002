@@ -205,13 +205,13 @@ def variance(xs: List[float]) -> float:
 # start the tests
 assert mean([1,2,3,4]) == 2.5
 assert set(mode([1.0,2.0])) == {1.0, 2.0}
-assert interquartile_range(num_friends) == 6
-assert 9.02 < standard_deviation(num_friends) < 9.04
-assert 81.54 < variance(num_friends) < 81.55
-assert quantile(num_friends, 0.10) == 1
-assert quantile(num_friends, 0.25) == 3
-assert quantile(num_friends, 0.75) == 9
-assert quantile(num_friends, 0.90) == 13
-assert interquartile_range(num_friends) == 6
-assert 22.42 < covariance(num_friends, daily_minutes) < 22.43
-assert 22.42 / 60 < covariance(num_friends, daily_hours) < 22.43 / 60
+# assert interquartile_range(num_friends) == 6
+# assert 9.02 < standard_deviation(num_friends) < 9.04
+# assert 81.54 < variance(num_friends) < 81.55
+# assert quantile(num_friends, 0.10) == 1
+# assert quantile(num_friends, 0.25) == 3
+# assert quantile(num_friends, 0.75) == 9
+# assert quantile(num_friends, 0.90) == 13
+# assert interquartile_range(num_friends) == 6
+# assert 22.42 < covariance(num_friends, daily_minutes) < 22.43
+# assert 22.42 / 60 < covariance(num_friends, daily_hours) < 22.43 / 60
