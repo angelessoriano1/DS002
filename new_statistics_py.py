@@ -158,8 +158,8 @@ def _median_even(xs: List[float]) -> float:
 #         Finds the 'middle-most' value of v
 
 def median(v: List[float]) -> float:
-    return None
-
+    """Finds the 'middle-most' value of v"""
+    return _median_even(v) if len(v) % 2 == 0 else _median_odd(v)
 
 #
 #     mode(x: List[float]) -> List[float]
