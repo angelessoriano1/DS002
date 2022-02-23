@@ -43,7 +43,7 @@ import math
 from angelessoriano1.linear_algebra2 import sum_of_squares, dot
 
 # Data
-num_friends = [100.0,49,41,40,25,21,21,19,19,18,18,16,
+#num_friends = [100.0,49,41,40,25,21,21,19,19,18,18,16,
     15,15,15,15,14,14,13,13,13,13,12,12,11,10,10,10,10,
     10,10,10,10,10,10,10,10,10,10,10,9,9,9,9,9,9,9,9,9,
     9,9,9,9,9,9,9,9,9,8,8,8,8,8,8,8,8,8,8,8,8,8,7,7,7,7,
@@ -53,7 +53,7 @@ num_friends = [100.0,49,41,40,25,21,21,19,19,18,18,16,
     3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
     2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
 
-daily_minutes = [1,68.77,51.25,52.08,38.36,44.54,57.13,51.4,41.42,31.22,
+#daily_minutes = [1,68.77,51.25,52.08,38.36,44.54,57.13,51.4,41.42,31.22,
     34.76,54.01,38.79,47.59,49.1,27.66,41.03,36.73,48.65,28.12,46.62,35.57,
     32.98,35,26.07,23.77,39.73,40.57,31.65,31.21,36.32,20.45,21.93,26.02,
     27.34,23.49,46.94,30.5,33.8,24.23,21.4,27.94,32.24,40.57,25.07,19.42,
@@ -71,16 +71,16 @@ daily_minutes = [1,68.77,51.25,52.08,38.36,44.54,57.13,51.4,41.42,31.22,
     34.65,13.13,27.51,33.2,31.57,14.1,33.42,17.44,10.12,24.42,9.82,23.39,
     30.93,15.03,21.67,31.09,33.29,22.61,26.89,23.48,8.38,27.81,32.35,23.84]
 
-daily_hours = [dm / 60 for dm in daily_minutes]
-friend_counts = Counter(num_friends)
+#daily_hours = [dm / 60 for dm in daily_minutes]
+#friend_counts = Counter(num_friends)
 
-xs = range(101)                         # largest value is 100
-ys = [friend_counts[x] for x in xs]     # height is just # of friends
-plt.bar(xs, ys)
-plt.axis([0, 101, 0, 25])
-plt.title("Histogram of Friend Counts")
-plt.xlabel("# of friends")
-plt.ylabel("# of people")
+#xs = range(101)                         # largest value is 100
+#ys = [friend_counts[x] for x in xs]     # height is just # of friends
+#plt.bar(xs, ys)
+#plt.axis([0, 101, 0, 25])
+#plt.title("Histogram of Friend Counts")
+#plt.xlabel("# of friends")
+#plt.ylabel("# of people")
 # plt.show()
 
 # FUNCTIONS
