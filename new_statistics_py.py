@@ -17,17 +17,17 @@ Original file is located at
 # %cd /content/
 
 # # Use `isdir()` to see if the repository is already here
-from genericpath import isdir
+#from genericpath import isdir
 
 # # get your code
 # # Does the folder/directory exist?
 
 # # Clone the repository with the latest code
-print("Clone the repo")
-!git clone https://github.com/angelessoriano1/DS002.git angelessoriano1
+#print("Clone the repo")
+#!git clone https://github.com/angelessoriano1/DS002.git angelessoriano1
 
 # %cd /content/angelessoriano1
-!git pull
+#!git pull
 
 # %cd /content/
 
